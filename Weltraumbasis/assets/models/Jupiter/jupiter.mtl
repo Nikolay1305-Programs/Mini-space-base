@@ -1,0 +1,12 @@
+# Blender 5.0.1 MTL File: 'None'
+# www.blender.org
+
+newmtl jupiter
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1000.000000
+d 1.000000
+illum 2
+map_Kd jupiter_diffuse.jpeg
+map_Ns jupiter_specularGlossiness.png
+map_Ke jupiter_diffuse.jpeg

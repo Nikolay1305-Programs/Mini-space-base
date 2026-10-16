@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Weltraumbasis/Weltraumbasis.vcxproj" Id="d4ad7a77-fd15-4de6-a686-483df1b7ce0e" />
+</Solution>
