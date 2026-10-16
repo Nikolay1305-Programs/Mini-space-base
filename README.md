@@ -1,1 +1,7 @@
-# Weltraumbasis
+This project is my university coursework for the Computer Graphics course. I built an interactive 3D simulation of a space station hangar entirely from scratch using C++ and OpenGL.
+
+In the simulation, you can walk around the hangar from a first-person perspective using standard mouse and keyboard controls. The scene features a parked spacecraft, a patrolling droid driven by a simple AI state machine, cargo crates, and a central control console. The main interaction revolves around the console: when you step up to it and click on it, a custom Ray-AABB raycasting algorithm detects the click in 3D space. This triggers a countdown sequence, opens the heavy hangar doors with a smooth animation, and launches the spacecraft out into space toward Jupiter, which is visible in the background.
+
+Under the hood, the rendering pipeline relies on OpenGL 3.3 and custom GLSL shaders for ambient/diffuse lighting, texturing, procedural geometry, and the starfield background. Camera view-projection and matrix calculations are handled via GLM (OpenGL Mathematics). For overall window management, input handling, on-screen dynamic text (SDL_ttf), and background audio effects (SDL_mixer), I used the SDL2 ecosystem.
+
+Please note that while all engine logic, rendering code, shaders, camera management, and mechanics were written by me, the 3D models for the ship, droid, and environment props were sourced externally from the internet.
